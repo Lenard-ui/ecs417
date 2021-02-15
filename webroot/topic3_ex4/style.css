@@ -1,0 +1,68 @@
+body{
+    background: url("https://media.giphy.com/media/h58dtf5vTpjulO4M5o/giphy.gif");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0cm -9cm;
+    color: aliceblue;
+}
+a:link{
+    text-decoration: underline;
+    color: aqua;
+}
+a:visited{
+    text-decoration: underline;
+    color: darkred;
+}
+a:hover{
+    text-decoration: underline;
+    color: white !important;
+    font-weight: bold;
+    background-color: black;
+}
+header{
+    border: solid medium rgb(240, 240, 255);
+    border-radius: 7pt;
+    background-color: rgb(68, 161, 241);
+    color: rgb(255, 145, 0);
+    margin: auto;
+    width: 50%;
+    padding: 10pt;
+    font-family: sans-serif;
+}
+#title{
+    background-color: aqua;
+    margin-left: -10pt;
+    width: 100%;
+    padding: 10pt;
+    font-size: 18pt;
+}
+hgroup h2 p, hgroup h2 p a:link, hgroup h2 p a:visited{
+    font-size: 20pt;
+    color: orange;
+    text-decoration: none;
+}
+section{
+    border: solid medium rgb(240, 240, 255);
+    border-radius: 7pt;
+    background-color: rgba(102, 66, 248, 0.8);
+    margin: auto;
+    margin-top: 1%;
+    width: 50%;
+    padding: 10pt;
+    font-family: fantasy;
+}
+ul{
+    list-style: none;
+}
+ol{
+    list-style: none;
+}
+figure{
+    text-align: center;
+}
+h2 p{
+    margin-top: 10pt;
+}
+#downloadLink p{
+    margin-top: 15pt;
+}
