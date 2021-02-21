@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="exercise4.css" type="text/css">
+    </head>
+    <body>
+        <form method="GET" action="http://webprojects.eecs.qmul.ac.uk/un300/week4/week4_process.php">
+            <legend class="title">Shirt Order Form</legend>
+            <fieldset>
+                <p>
+                    <label>Shirt size:</label>
+                    <p>
+                        <select name="size">
+                            <option>Choose size</option>
+                            <option>3XL</option>
+                            <option>XXL</option>
+                            <option>XL</option>
+                            <option>L</option>
+                            <option>M</option>
+                            <option>S</option>
+                            <option>XS</option>
+                            <option>XXS</option>
+                            <option>3XS</option>
+                        </select>
+                    </p>
+                </p>
+                <p>
+                    <label>Sleeves</label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" id="short" name="sleeves" value="short">
+                        Short
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" id="long" name="sleeves" value="long">
+                        Long
+                    </label>
+                </p>
+                <p>
+                    <label for="color">
+                        Choose Shirt Colour
+                        <p><input type="color" id="color" name="colour"></p>
+                    </label>
+                </p>
+                <p>
+                    <label for="quantity">
+                        Quantity
+                        <p>
+                            <input type="number" id="quantity" name="quantity" value="1">
+                        </p>
+                    </label>
+                </p>
+                <p>
+                    <label for="date">
+                        Date Requested
+                        <p>
+                            <input type="date" id="date" name="date">
+                        </p>
+                    </label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <p>
+                    <label for="name">
+                        Name
+                        <p><input type="text" name="name" id="name"></p>
+                    </label>
+                </p>
+                <p>
+                    <label for="mail">
+                        Email Address
+                        <p><input type="text" name="mail" id="mail"></p>
+                    </label>
+                </p>
+                <p>
+                    <label for="tel">
+                        Telephone Number
+                        <p><input type="text" name="tel" id="tel"> Example: 44-207-882-1234</p>
+                    </label>
+                </p>
+            </fieldset>
+            <fieldset>
+                <p>
+                    <label for="address">
+                        Address
+                        <p><input type="text" name="address" id="address"></p>
+                    </label>
+                </p>
+                <p>
+                    <label for="city">
+                        City
+                        <p><input list="cities" type="text" name="city" id="city"></p>
+                        <datalist id="cities">
+                            <option value="Berlin">
+                            <option value="London">
+                            <option value="Eckernförde">
+                            <option value="Rome">
+                            <option value="New York">
+                        </datalist>
+                    </label>
+                </p>
+                <p>
+                    <label for="postcode">
+                        Postcode
+                        <p><input type="text" name="postcode" id="postcode"></p>
+                    </label>
+                </p>
+            </fieldset>
+            <fieldset class="end">
+                <p>
+                    <label>
+                        Please keep me informed about future shirt designs
+                        <input type="radio" id="accept" name="accept" value="on">
+                    </label>
+                </p>
+                <p id="buttons">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Clear Form</button>
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>
