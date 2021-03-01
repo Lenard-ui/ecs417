@@ -1,0 +1,127 @@
+/* General settings */
+body{
+    background-color: rgb(250, 250, 250);
+    font-family: "Fira Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+#upperRight, #lowerRight, #lowerLeft{
+    background-color: rgb(221, 221, 221);
+    padding: 15px;
+    /* display: block;
+    position: absolute; */
+}
+#upperRight h1, #lowerRight h1, #lowerLeft h1{
+    background-color: rgb(67, 255, 249);
+    padding: 3%;
+}
+#upperRight ul, #lowerRight ul, #lowerLeft ul{
+    background-color: rgb(250, 250, 250);
+    
+}
+/* image sizing */
+img#me{
+    width: 15vw;
+    height: auto;
+    max-width: 100%;
+}
+.bagde img{
+    width: 5vw;
+    height: auto;
+}
+/* The top bar of the page */
+header{
+    background-color: rgb(67, 255, 249);
+    padding: 1vh 0 1.5vh 1vw;
+}
+#title {
+    font-size: 1.5em;
+    float: left;
+    margin-top: 0.5vh;
+    font-family: fantasy;
+}
+#title a:link, #title a:visited{
+    color: black;
+    text-decoration: none;
+}
+#title a:hover{
+    background-color: none;
+    color: rgb(86, 86, 86);
+}
+#topNav{
+    margin-top: 1vh;
+    padding: 4px;
+    font-size: 11pt;
+}
+#topNav a{
+    padding-left: 2.3vw;
+}
+/* center block of the page */
+article{
+    margin: 0 30% 0 26%;
+    padding: 10px 12px 0px 12px;
+}
+#selfie{
+    position: relative;
+    text-align: right;
+    padding-right: 1vw;
+}
+#textfield, #textfield1{
+    position: absolute;
+    float: left;
+    margin: 0 50% 0 0;
+    padding: 1%;
+}
+dt{
+    position: relative;
+    float: left;
+    font-weight: bolder;
+    max-width: 50px;
+    padding: 2%;
+}
+dd{
+    margin-left: 3%;
+    padding: 2%;
+}
+/* left side block */
+#aleft{
+    float: left;
+    padding: 10px 9px 0px 0px;
+    width: 20%;
+}
+#upperLeft{
+    background-color: rgb(235, 223, 209);
+    color: rgb(174, 135, 89);
+    padding: 4%;
+    margin-bottom: 4%;
+}
+#middleLeft{
+    background-color: rgb(221, 221, 221);
+    padding: 4%;
+    margin-bottom: 4%;
+}
+.badge figcaption{
+    font-size: clamp(0.1rem, -0.5750rem + 3.0000vw, 1rem);
+    width: 70%;
+    float: right;
+    text-align: left;
+    position: relative;
+    vertical-align: middle;
+    padding: 2% 0 1% 0;
+}
+/* right side block */
+#aright{
+    float: right;
+    align-self: start;
+    width: 20%;
+}
+#upperRight, #lowerRight{
+    margin-top: 4%;
+}
+#upperRight li, #lowerRight li{
+    margin-bottom: 4%;
+}
