@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css" type="text/css">
+    <link rel="stylesheet" href="default_style.css" type="text/css">
+    <link rel="stylesheet" href="light_style.css" type="text/css">
+    <!-- <link rel="stylesheet" href="dark_style.css" type="text/css"> -->
+    <title>KLI - Blog</title>
+</head>
+<body class="blog-page">
+    <header id="page-top">
+        <h1>Personal Blog</h1>
+    </header>
+    <article class="blog-page-center">
+        <section class="blog-form">
+            <form method="POST" action="http://webprojects.eecs.qmul.ac.uk/un300/week4/week4_process.php">
+                <legend class="title">Add a Blog</legend>
+                <fieldset class="blog-inputs">
+                    <p class="blog-title-area">
+                        <label for="blog-title-input">
+                            Add a title
+                            <p><input type="text" name="blog-title" id="blog-title-input" class="blogs-text-inputs" required></p>
+                        </label>
+                    </p>
+                    <p class="blog-body-area">
+                        <label for="blog-body-input">
+                            Blog text here
+                            <p><textarea type="text" name="blog-body" id="blog-body-input" class="blogs-text-inputs"></textarea></p>
+                        </label>
+                    </p>
+                </fieldset>
+                <fieldset class="blog-operations">
+                    <p id="buttons">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Clear</button>
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+        <section class="blog-box">
+            <div class="scroll-box card">
+                <div class="blog-post">
+                    <div class="blog-title">Most recent post</div>
+                    <hr>
+                    <div class="blog-body"></div>
+                </div>
+                <div class="blog-post">
+                    <div class="blog-title">Second post</div>
+                    <hr>
+                    <div class="blog-body"></div>
+                </div>
+                <div class="blog-post">
+                    <div class="blog-title">Oldest post</div>
+                    <hr>
+                    <div class="blog-body"></div>
+                </div>
+            </div>
+        </section>
+    </article>
+    <aside></aside>
+    <footer>
+        <div class="contact-links">
+            <p>Thanks for stopping by</p>
+        <p>find me here...</p>
+        <p>
+            Instagram: <a href="https://www.instagram.com/kem_lenard/" title="link to my Insta">@kem_lenard/</a>
+        </p>
+        <p>
+            Twitter: <a href="https://twitter.com/Lenard55463141">@Lenard</a>
+        </p>
+        <p>
+            GitHub: <a href="https://github.com/Lenard-ui">Lenard-ui</a>
+        </p>
+        <p>
+            YouTube: <a href="https://www.youtube.com/channel/UCskH7b1zOZMj0hUBmEJZVCw">LenTime</a>
+        </p>
+        </div>
+        <nav class="footer-nav">
+            | <a href="#page-top">back to top</a> | <a href="home.html">Home</a> |
+    </nav>
+    </footer>
+</body>
+</html>
