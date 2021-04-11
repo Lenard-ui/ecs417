@@ -1,0 +1,94 @@
+/*This CSS file will only affect the pages colors*/
+/*Global settings*/
+body {
+  /* color: rgb(255, 198, 41); */
+  color: #ff409f;
+  background-color: rgb(90, 82, 87);
+}
+
+/**Footer**/
+footer {
+  background-color: rgb(76, 61, 74);
+}
+
+/*Header and links*/
+header {
+  background-color: rgb(76, 61, 74);
+}
+
+h1 {
+  color: rgb(255, 198, 41);
+}
+
+a:link, a:visited {
+  color: rgb(45, 37, 44);
+}
+
+a:hover {
+  color: rgb(125, 100, 122);
+}
+
+/*General sidebox style*/
+aside div.box {
+  background-color: rgb(255, 198, 41);
+}
+
+/*Main page center*/
+.card {
+  border: none;
+  background-color: rgb(76, 61, 74);
+}
+
+/**Light/Dark switch**/
+.page-color-slider.box {
+  color: rgb(76, 61, 74);
+}
+
+/**Login box**/
+button {
+  background-color: #ff409f;
+  border-color: rgb(76, 61, 74);
+}
+
+.signup-form button {
+  border-color: rgb(255, 198, 41);
+}
+
+/**Login box**/
+input {
+  color: azure;
+  background-color: rgb(90, 82, 87);
+}
+
+/*Blog page general style*/
+.blog-form form {
+  background-color: rgb(76, 61, 74);
+}
+
+.blog-form legend {
+  background-color: rgb(255, 198, 41);
+  color: rgb(76, 61, 74);
+  border: none;
+}
+
+.blogs-text-inputs {
+  border-color: rgb(255, 198, 41);
+  background-color: rgb(90, 82, 87);
+}
+
+#blog-body-input {
+  border-color: rgb(255, 198, 41);
+  background-color: rgb(90, 82, 87);
+  color: azure;
+}
+
+/*blog preview*/
+.page-dampener {
+  background-color: rgba(45, 37, 44, 0.6);
+}
+
+/*blog display*/
+.blog-post {
+  border: solid rgb(255, 198, 41) 5px;
+  background-color: transparent;
+}
