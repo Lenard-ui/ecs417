@@ -11,3 +11,4 @@ $conn = new mysqli($dbhost, $dbuser, $dbpwd, $dbname);
 if (!$conn) {
   die("Connection faild abort mission: ".mysqli_connect_error());
 }
+?>
