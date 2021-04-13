@@ -9,17 +9,7 @@ function getQueryMsg() {
       window.alert("Comment was deleted for ever!");
     } else if (val2 == 'stmtFailed') {
       window.alert("Something went wrong!");
-    } else if (val2 == 'emptyTitleInput') {
-      window.alert("Enter a Title!");
-      if (blogTitle) {
-        blogTitle.className += " highlighted";
-      }
-    } else if (val2 == 'emptyBodyInput') {
-      window.alert("The Post has no text!");
-      if (blogBody) {
-        blogBody.className += " highlighted";
-      }
-    } else if (val2 == 'fullyEmptyInput') {
+    } else if (val2 == 'emptyTitleTextInput') {
       if (blogTitle&&blogBody) {
         blogTitle.className += " highlighted";
         blogBody.className += " highlighted";
