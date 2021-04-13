@@ -74,15 +74,11 @@
       <h2 class="card-header">About Me!</h2>
       <hr>
       <div class="content">
-        <p>Hey there! I am Kem Lenny Ibodi better known as Kemy. Welcome to my site! while I would love to tell you all about myself, I am quite pressed for time at the moment... so here is some randomly generated text for you to enjoy:</p>
+        <p>Hey there! I am Kem Lenny Ibodi better known as Kemy. Welcome to my site!</p>
         <p>
-          A long black shadow slid across the pavement near their feet and the five Venusians, very much startled, looked overhead. They were barely in time to see the huge gray form of the carnivore before it vanished behind a sign atop a nearby
-          building which bore the mystifying information "Pepsi-Cola."
-        </p>
-        </p>
+          If I had to describe my lifestyle in one phrase it would be “everything worth doing, is worth doing well”. I think this is a pretty accurate description of the way I treat my work, hobbies and private life. When given a task or when I set my mind to something I will make sure to see it through until the very end because there would be no meaning in having started something without experiencing its end. For the most part I enjoy doing what I do and will not sign up to do something if I know I would not want to do it well, while this life style might be a little taxing at times it never fails to reward.
         <p>
-          The rain and wind abruptly stopped, but the sky still had the gray swirls of storms in the distance. Dave knew this feeling all too well. The calm before the storm. He only had a limited amount of time before all Hell broke loose, but he
-          stopped to admire the calmness. Maybe it would be different this time, he thought, with the knowledge deep within that it wouldn't.
+          Also ... I don't know if you noticed but this page has a dark mode ... why not check it out.
         </p>
       </div>
     </div>
@@ -90,14 +86,15 @@
       <h2 class="card-header">Things I do</h2>
       <hr>
       <div class="content">
-        <p>This Pannel will contain Projects I am currently working on and links to my github repos but again enjoy RNG:</p>
+        <p>As I will elaborate on later I am a computer science student (which is why) you are currently on a website I made from scratch. </p>
         <p>
-          They rushed out the door, grabbing anything and everything they could think of they might need. There was no time to double-check to make sure they weren't leaving something important behind. Everything was thrown into the car and they sped
-          off. Thirty minutes later they were safe and that was when it dawned on them that they had forgotten the most important thing of all.
+          For now please feel free to check out my GitHub which is linked in the footer of this page.
         </p>
         <p>
-          He sat staring at the person in the train stopped at the station going in the opposite direction. She sat staring ahead, never noticing that she was being watched. Both trains began to move and he knew that in another timeline or in another
-          universe, they had been happy together.
+          You can also find me on social media such as YouTube, Twitter and Instagram by following the links in the footer.
+        </p>
+        <p>
+          Don’t worry I will keep this article up to date in the near future.
         </p>
       </div>
     </div>
@@ -105,12 +102,15 @@
       <h2 class="card-header">My Experiences</h2>
       <hr>
       <div class="content">
-        <p>This Card will contain facts about my Education... As I used to take Latin courses This will be randomly generated paragraphs in lazin...</p>
+        <p>Coming from Germany I achieved the “Zeugnis der Allgemeinen Hochschulreife” in a Steiner school in northern Germany excelling in Maths, English, Biology and Latin.</p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec pharetra odio. Cras cursus sem id posuere gravida. Nullam a pellentesque velit. Nam massa libero, ultrices a justo eget, dictum tempor lectus. Maecenas egestas, turpis vel
-          varius ultricies, metus dui dignissim orci, non tincidunt libero tellus in nulla. Cras vel dolor efficitur, cursus diam id, interdum magna. Donec ipsum lorem, pretium nec luctus eu, pulvinar faucibus nisl. Sed ac posuere diam, et dictum
-          nisl. Quisque bibendum at nunc sit amet euismod. Nulla lobortis convallis mollis. Etiam tincidunt, arcu eget facilisis suscipit, quam lorem imperdiet libero, a maximus sapien nulla ut lorem. Vestibulum hendrerit elit lacus, tempus hendrerit
-          lorem semper in. Donec dignissim vehicula consectetur. Proin posuere felis eu vestibulum congue. Nunc et velit est. Nam vitae nulla maximus, imperdiet justo quis, euismod purus.
+          I am now a student at Queen Mary University of London in my first year of computer science.
+        </p>
+        <p>
+          As for my technological background, I taught myself the basics of programming using python at the age of 13. I have always had a curiosity for this subject as I have always loved to play video games and started asking myself how the work at a young age. Specifically, as I found an exploit in a Super Mario game at the age of 12 which gave the player infinite lives, I wondered if he games makers added it into the game on purpose or not.
+        </p>
+        <p>
+          For the last two years I spent in Germany I worked as an assistant in a repair shop for smartphones and gadgets. Experiencing complex phone repairs first hand, handling software issues of customers and replacing phone screens, batteries etc. were a weekly occurrence for me during that time.
         </p>
       </div>
     </div>
