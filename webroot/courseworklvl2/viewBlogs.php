@@ -19,7 +19,7 @@
        <?php
 
          if (isset($_SESSION["userId"])) {
-           if ($_SESSION["userId"] == 1) {
+           if ($_SESSION["userId"] == 1 || $_SESSION["userId"] == 2) {
              echo setAddBlogForm();
            } else {
              echo setAddBlogCommentForm();
