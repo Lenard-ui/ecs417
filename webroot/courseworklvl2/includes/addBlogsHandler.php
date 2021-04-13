@@ -9,13 +9,13 @@
     $blogBody = $_POST['blog-body'];
 
     if ($inputErr = emptyBloginput($blogTitle, $blogBody) !== false) {
-      if ($inputErr == 0) {
+      if ($inputErr === 0) {
         header("location: ../blogs.php?error=emptyTitleInput");
         exit();
-      } elseif ($inputErr == 1) {
+      } elseif ($inputErr === 1) {
         header("location: ../blogs.php?error=emptyBodyInput");
         exit();
-      } elseif ($inputErr == 2) {
+      } elseif ($inputErr === 2) {
         header("location: ../blogs.php?error=fullyEmptyInput");
         exit();
       } else {
