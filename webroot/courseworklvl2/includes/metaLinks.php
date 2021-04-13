@@ -328,11 +328,11 @@ function setLoginrequestMsg(){
 
 function emptyBloginput($blogTitle, $blogBody){
   $ans;
-  if (empty($blogTitle)) {
+  if (empty($blogTitle) || $blogTitle == '') {
     $ans = 0;
   } if (empty($blogBody)) {
     $ans = 1;
-  } if (empty($blogTitle) && empty($blogBody)) {
+  } if (empty($blogTitle) && (empty($blogTitle) || $blogTitle == '')) {
     $ans = 2;
   } else {
     $ans = false;

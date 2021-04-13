@@ -12,17 +12,17 @@ function getQueryMsg() {
     } else if (val2 == 'emptyTitleInput') {
       window.alert("Enter a Title!");
       if (blogTitle) {
-        blogTitle.class += " highlighted";
+        blogTitle.className += " highlighted";
       }
     } else if (val2 == 'emptyBodyInput') {
       window.alert("The Post has no text!");
       if (blogBody) {
-        blogBody.class += " highlighted";
+        blogBody.className += " highlighted";
       }
     } else if (val2 == 'fullyEmptyInput') {
       if (blogTitle&&blogBody) {
-        blogTitle.class += " highlighted";
-        blogBody.class += " highlighted";
+        blogTitle.className += " highlighted";
+        blogBody.className += " highlighted";
       }
       window.alert("No title, no text, no blog!");
     } else if (val2 == 'none') {
