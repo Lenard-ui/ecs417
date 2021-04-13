@@ -1,71 +1,75 @@
 /*This CSS file will only affect the pages colors*/
 /*Global settings*/
 body {
-  color: rgb(47, 47, 47);
-  background-color: azure;
+	color: rgb(47, 47, 47);
+	background-color: azure;
 }
 
 /**Footer**/
 footer {
-  background-color: rgb(178, 218, 218);
+	background-color: rgb(178, 218, 218);
 }
 
 /**Header and links**/
 header {
-  background-color: rgb(178, 218, 218);
+	background-color: rgb(178, 218, 218);
 }
 
 a:link, a:hover, a:visited {
-  color: rgb(47, 47, 47);
+	color: rgb(47, 47, 47);
 }
 
 /*General sidebox style*/
 aside div.box {
-  background-color: #48fff9bd;
+	background-color: #48fff9bd;
 }
 
 /*Main page center*/
 .card {
-  border: none;
-  background-color: #91ffb9;
+	border: none;
+	background-color: #91ffb9;
 }
 
 button {
-  background-color: #91ffb9;
-  border-color: azure;
+	background-color: #91ffb9;
+	border-color: azure;
 }
 
 .insta-pic figcaption a {
-  color: azure;
+	color: azure;
 }
 
 /*Blog page general style*/
 .blog-form form {
-  background-color: #91ffb9;
+	background-color: #91ffb9;
+}
+
+.blog-form form .highlighted {
+	background-color: rgb(235, 123, 176);
 }
 
 .blog-form legend {
-  background-color: #48fff9;
-  color: rgb(47, 47, 47);
-  border: none;
+	background-color: #48fff9;
+	color: rgb(47, 47, 47);
+	border: none;
 }
 
 .blogs-text-inputs {
-  background-color: azure;
+	background-color: azure;
 }
 
 #blog-body-input {
-  border-color: #ccc;
-  background-color: azure;
+	border-color: #ccc;
+	background-color: azure;
 }
 
 /*blog preview*/
 .page-dampener {
-  background-color: rgba(240, 255, 255, 0.3);
+	background-color: rgba(240, 255, 255, 0.3);
 }
 
 /*blog display*/
 .blog-post {
-  border: solid #48fff9 3px;
-  background-color: azure;
+	border: solid #48fff9 3px;
+	background-color: azure;
 }

@@ -328,8 +328,12 @@ function setLoginrequestMsg(){
 
 function emptyBloginput($blogTitle, $blogBody){
   $ans;
-  if (empty($blogTitle) || empty($blogBody)) {
-    $ans = true;
+  if (empty($blogTitle)) {
+    $ans = 0;
+  } if (empty($blogBody)) {
+    $ans = 1;
+  } if (empty($blogTitle) && empty($blogBody)) {
+    $ans = 2;
   } else {
     $ans = false;
   }

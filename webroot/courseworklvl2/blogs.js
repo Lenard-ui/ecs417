@@ -9,9 +9,36 @@ function getQueryMsg() {
       window.alert("Comment was deleted for ever!");
     } else if (val2 == 'stmtFailed') {
       window.alert("Something went wrong!");
+    } else if (val2 == 'emptyTitleInput') {
+      window.alert("Enter a Title!");
+      if (blogTitle) {
+        blogTitle.class += " highlighted";
+      }
+    } else if (val2 == 'emptyBodyInput') {
+      window.alert("The Post has no text!");
+      if (blogBody) {
+        blogBody.class += " highlighted";
+      }
+    } else if (val2 == 'fullyEmptyInput') {
+      if (blogTitle&&blogBody) {
+        blogTitle.class += " highlighted";
+        blogBody.class += " highlighted";
+      }
+      window.alert("No title, no text, no blog!");
     } else if (val2 == 'none') {
       window.alert("Full success");
     }
   }
 }
+function displayClearMsg() {
+  alert('Form Cleared!');
+}
+let newCommentButton = document.getElementById('clear-form');
+if (newCommentButton) {
+  newCommentButton.addEventListener('click', displayClearMsg);
+}
+
+var blogTitle = document.getElementById('blog-title');
+var blogBody = document.getElementById('blog-body');
+
 getQueryMsg();

@@ -53,7 +53,7 @@
               Add a title
               <?php
                 global $blogtitle;
-                echo '<p><input type="text" name="blog-title" id="blog-title" class="blogs-text-inputs" required value="'.$blogtitle.'"></p>';
+                echo '<p><input type="text" name="blog-title" id="blog-title" class="blogs-text-inputs" value="'.$blogtitle.'"></p>';
                ?>
             </label>
           </p>
@@ -71,7 +71,7 @@
           <p id="buttons">
             <button type="submit" name="submit-blog" id="submit-blog">Submit</button>
             <button type="submit" name="preview-blog">Preview</button>
-            <button type="reset">Clear</button>
+            <button type="reset" name="clear-form" id="clear-form">Clear</button>
           </p>
         </fieldset>
       </form>

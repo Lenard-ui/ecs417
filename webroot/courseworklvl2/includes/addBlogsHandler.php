@@ -1,16 +1,27 @@
 <?php
 
+  require_once 'dataStream.php';
+  require_once 'metaLinks.php';
+
   if (isset($_POST['submit-blog'])) {
 
     $blogTitle = $_POST['blog-title'];
     $blogBody = $_POST['blog-body'];
 
-    require_once 'dataStream.php';
-    require_once 'metaLinks.php';
-
-    if (emptyBloginput($blogTitle, $blogBody) !== false) {
-      header("location: ../blogs.php?error=emptyInput");
-      exit();
+    if ($inputErr = emptyBloginput($blogTitle, $blogBody) !== false) {
+      if ($inputErr == 0) {
+        header("location: ../blogs.php?error=emptyTitleInput");
+        exit();
+      } elseif ($inputErr == 1) {
+        header("location: ../blogs.php?error=emptyBodyInput");
+        exit();
+      } elseif ($inputErr == 2) {
+        header("location: ../blogs.php?error=fullyEmptyInput");
+        exit();
+      } else {
+        header("location: ../blogs.php?error=emptyInput");
+        exit();
+      }
     }
 
     createBlogPost($conn, $blogTitle, $blogBody);
