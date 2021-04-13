@@ -6,7 +6,7 @@
   include 'includes/metaLinks.php';
 
   if (isset($_SESSION["userUname"])) {
-    if ($_SESSION["userUname"] == 'Lenard') {
+    if ($_SESSION["userUname"] == 'Lenard' || $_SESSION["userUname"] == 'Kem') {
       // vibe
     } else {
       header("location: home.php?status=accessDenied");
